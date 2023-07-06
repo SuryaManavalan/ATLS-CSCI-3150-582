@@ -1,0 +1,43 @@
+h1 {
+    color: blue;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    color: red;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #333;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h4 {
+    color: #777;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p {
+    color: green;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+}
+
+em {
+    font-style: italic;
+    color: purple;
+}
+
+strong {
+    font-weight: bold;
+    color: orange;
+}
