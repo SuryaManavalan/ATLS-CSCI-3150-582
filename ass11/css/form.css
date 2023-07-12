@@ -1,58 +1,72 @@
 @charset "UTF-8";
 
+/* form.css */
 
-/* form styling */
-
-
-#wrapper {
-    width: 60%;
-    margin-left: 4%;
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f2f2f2;
 }
 
-div#formcol1 {
-    float: left;
-    width: 100%;
+#wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+fieldset {
+    background-color: #d9d9d9;
+    padding: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    padding-top: 40px;
 }
 
 label {
-    text-align: right;
-    margin-right: .3em;
-    width: 6em;
-    /* I made this deliberately wide – come up with your own optimal width */
-    display: inline-block;
-    /* width will not work for “inline” elements such as “label”. Therefore we need to set it to “inline-block” */
+    display: block;
+    margin-bottom: 10px;
 }
 
-select:focus,
-select:active,
-input:focus,
-input:active,
-input:focus+label,
-input:active+label,
-label[for]:focus,
-label[for]:active {
-    color: #FFF !important;
-    background-color: #8aa6af !important;
+input[type="text"],
+input[type="radio"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-
-html {
-    font-size: 10px;
-    background-color: #8aa6af;
-}
-
-fieldset {
-    font-size: 10px;
-    background-color: #a9a9a9;
-}
-
-#formcol1 li {
-    list-style: none;
-}
-
-#formcol1 input.reqfield {
+input.reqfield {
     background: #FF9;
 }
 
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #8aa6af;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
-/* end of form css */
+#multchoice {
+    margin-top: 20px;
+}
+
+.submit-button {
+    text-align: right;
+}
+
+/* end of form.css */
